@@ -4,7 +4,7 @@ import { MemoryRouter, Route, Routes } from 'react-router-dom';
 import App from './App';
 import BlogPostList from './Components/BlogPostList';
 import BlogPostItem from './Components/BlogPostItem';
-
+//mock the blogpost list and items component
 jest.mock('./Components/BlogPostList', () => () => <div>BlogPostList Component</div>);
 jest.mock('./Components/BlogPostItem', () => () => <div>BlogPostItem Component</div>);
 
