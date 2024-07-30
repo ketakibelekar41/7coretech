@@ -25,7 +25,7 @@ const BlogPostDetails = ({ match }) => {
     return (
         <div>
             <button onClick={() => window.history.back()}>Back to list</button>
-            <h1>{post.title}</h1>{/* render post titles */}
+            <h1>{post.title}</h1>
             <img src={post.urlToImage} alt={post.title} />
             <p>{post.content}</p>
         </div>
